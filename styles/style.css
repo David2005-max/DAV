@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.flex-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.active a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 10px 20px;
+}
+
+a:hover {
+    color: #DC4453;
+}
+
+header {
+    background-color: #1F2235;
+    padding: 40px 150px;
+    position: fixed;
+    width: 105%;
+}
+
+.active {
+    list-style-type: none;
+}
+
+#brand-logo {
+    width: 120px;
+}
+
+#home {
+    background-color: #24263B;
+    padding-top: 100px;
+}
+
+.socialicons {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #DC4453;
+    border-radius: 50%;
+    line-height: 30px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 0px 10px;
+
+}
+
+.socialicons:hover {
+    background-color: #DC4453;
+  
+}
+
+
+#social {
+    display: flex;
+    margin: 30px 130px;
+    padding: 50px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 150px;
+
+}
+
+
+.Title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px 100px;
+    padding-left: 26px;
+    
+}
+
+#rightBox {
+    margin: 100px 70px;
+}
+
+.para {
+    color: white;
+    font-size: 25px;
+     margin: 30px 130px; 
+    line-height: 1.5;
+}
+
+.cta-button {
+    background-color: #24263b;
+    border: 2px solid #DC4453;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left:  130px;
+
+}
+.cta-button:hover{
+    background-color: #DC4453;
+}
+
+#playbutton{
+    background-color: #DC4453;
+    height: 60px;
+    width: 90px;
+    margin-left: 20px;
+    border-radius: 50px;
+}

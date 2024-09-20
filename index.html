@@ -7,24 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <title>David-Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- header part -->
-    <header>
+    <header class="flex-content">
         <div>
             <img src="./images/New Logo.png" alt="David logo" id="brand-logo">
         </div>
 
         <nav>
-            <ul>
-                <li><a href="#home"></a>home</li>
-                <li><a href="#About"></a>About</li>
-                <li><a href="#services"></a>services</li>
-                <li><a href="#skills"></a>skills</li>
-                <li><a href="#portfolio"></a>Portfolio</li>
-                <li><a href="#Blog"></a>Blog</li>
-                <li><a href="#Contact"></a>Contact</li>
+            <ul class="flex-content">
+                <li class="active"><a href="#home">Home</a></li>
+                <li class="active"><a href="#About">About</a></li>
+                <li class="active"><a href="#services">Services</a></li>
+                <li class="active"><a href="#skills">Skills</a></li>
+                <li class="active"><a href="#portfolio">portfolio</a></li>
+                <li class="active"><a href="#Blog">Blog</a></li>
+                <li class="active"><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -33,30 +37,31 @@
     <!-- main part -->
     <main>
         <section id="home">
-            <div id="leftBox">
-                <!-- social icons -->
-                <div>
-                    <div class="socialicons"><i class="fa-brands fa-facebook"></i></div>
-                    <div class="socialicons"><i class="fa-brands fa-twitter"></i></div>
-                    <div class="socialicons"><i class="fa-brands fa-github"></i></div>
-                    <div class="socialicons"><i class="fa-brands fa-linkedin"></i></div>
-                    <div class="socialicons"><i class="fa-brands fa-instagram"></i></div>
+            <div class="flex-content" >
+                <div id="leftBox">
+                    <!-- social icons -->
+                    <div id="social">
+                        <div class="socialicons"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="socialicons"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="socialicons"><i class="fa-brands fa-github"></i></div>
+                        <div class="socialicons"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class="socialicons"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+
+                    <!-- text content -->
+                    <h1 class="Title">I am David Kasobi</h1>
+                    <p class="para">David, a upcoming software developer with the ambision of becoming a great developer</p>
+
+                    <!-- cta buttom -->
+                    <div>
+                        <button class="cta-button">Portfolio</button>
+                        <button id="playbutton">
+                            <i class="fa-solid fa-play"></i></button>
+                    </div>
                 </div>
 
-                <!-- text content -->
-                <h1>I am David Kasobi</h1>
-                <p>David, a upcoming software developer with the ambision of becoming a great developer</p>
 
-                <!-- cta buttom -->
-                <div>
-                    <button>portfolio</button>
-                    <button>
-                        <i class="fa-solid fa-play"></i></button>
-                </div>
-            </div>
-
-
-            <div id="rightBox"><img src="./images/second logo.png" alt="Second logo"></div>
+                <div id="rightBox"><img src="./images/second logo.png" alt="Second logo"></div>
         </section>
 
         <section id="services">
@@ -68,6 +73,7 @@
                     sint pariatur obcaecati veritatis rem quia ab optio neque, soluta sapiente numquam ea delectus.
                     Tenetur, sequi excepturi qui animi reprehenderit quod iure ex! Dolores!</p>
 
+            </div>
             </div>
 
 
@@ -356,7 +362,9 @@
             <div id="top box">
                 <p>Lastest Post</p>
                 <h2>Lastest Blog</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit molestias voluptatum! Sint qui animi dolorem culpa eveniet saepe magnam fuga vitae accusamus quidem amet illum earum repellat eaque officiis eum, doloremque rem maiores et dolorum exercitationem deserunt? Adipisci, fuga?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit molestias voluptatum! Sint qui
+                    animi dolorem culpa eveniet saepe magnam fuga vitae accusamus quidem amet illum earum repellat eaque
+                    officiis eum, doloremque rem maiores et dolorum exercitationem deserunt? Adipisci, fuga?</p>
             </div>
             <div id="butom box">
                 <div id="left box">
@@ -372,7 +380,7 @@
                     <p>Ten secret you will not Want to know</p>
                     <div>
                         <!-- cta buttom -->
-                         <button>Read more <i class="fa-solid fa-right-long"></i></button>
+                        <button>Read more <i class="fa-solid fa-right-long"></i></button>
                     </div>
                 </div>
                 <div id="middle box">
@@ -383,12 +391,12 @@
                         <i class="fa-regular fa-calendar-days"></i>
                         <p>Wednesday</p>
                         <i class="fa-solid fa-message"></i>
-                        <p>3</p>  
+                        <p>3</p>
                     </div>
                     <p>You gotta dance like nobody is watching</p>
                     <div>
                         <!-- cta buttom -->
-                         <button>Read more <i class="fa-solid fa-right-long"></i></button>
+                        <button>Read more <i class="fa-solid fa-right-long"></i></button>
                     </div>
                 </div>
                 <div id="right box">
@@ -399,7 +407,7 @@
                         <i class="fa-regular fa-calendar-days"></i>
                         <p>saturday</p>
                         <i class="fa-solid fa-message"></i>
-                        <p>3</p>   
+                        <p>3</p>
                     </div>
                     <p>I must explain to you how all this mistaken idea</p>
                     <div>
@@ -415,7 +423,9 @@
             <div id="Top Box">
                 <p>Have any query</p>
                 <h2>Contact Me</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo at quis dolorum corrupti similique neque, ex porro quod eos voluptatem dolorem atque, autem eveniet consequuntur vitae, quas laboriosam quasi mollitia.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo at quis dolorum corrupti similique
+                    neque, ex porro quod eos voluptatem dolorem atque, autem eveniet consequuntur vitae, quas laboriosam
+                    quasi mollitia.</p>
             </div>
             <div id="middle box">
                 <div id="left side">
@@ -439,17 +449,17 @@
                 <div>
                     <div id="left side">
                         <p>Your Name</p>
-                    <div id="right side">
-                        <p>Your email</p>
+                        <div id="right side">
+                            <p>Your email</p>
 
-                    </div>
+                        </div>
 
                     </div>
                 </div>
                 <p>Your subject </p>
                 <p>Your Message</p>
                 <!-- cta buttom -->
-                 <button>Send message</button>
+                <button>Send message</button>
             </div>
         </section>
 
@@ -458,7 +468,10 @@
     <!-- footer part -->
     <footer>
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit blanditiis placeat ullam fugit porro tempore fuga nemo, culpa dolor sed repellendus nesciunt, sit vitae? At ducimus ea excepturi ab corporis qui eveniet hic eum ullam, et omnis eligendi nam, adipisci magnam optio possimus itaque alias, iure sequi? Suscipit, id rerum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit blanditiis placeat ullam fugit porro
+                tempore fuga nemo, culpa dolor sed repellendus nesciunt, sit vitae? At ducimus ea excepturi ab corporis
+                qui eveniet hic eum ullam, et omnis eligendi nam, adipisci magnam optio possimus itaque alias, iure
+                sequi? Suscipit, id rerum!</p>
             <div>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
